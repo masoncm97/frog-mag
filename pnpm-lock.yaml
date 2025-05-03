@@ -8,6 +8,9 @@ dependencies:
   '@sanity/assist':
     specifier: ^3.0.8
     version: 3.2.2(@sanity/mutator@3.87.1)(react-dom@18.3.1)(react-is@19.1.0)(react@18.3.1)(sanity@3.87.1)(styled-components@6.1.17)
+  '@sanity/client':
+    specifier: ^7.0.0
+    version: 7.0.0(debug@4.4.0)
   '@sanity/icons':
     specifier: ^3.4.0
     version: 3.7.0(react@18.3.1)
@@ -45,7 +48,7 @@ dependencies:
     specifier: ^15.0.0
     version: 15.3.1(@babel/core@7.27.1)(react-dom@18.3.1)(react@18.3.1)
   next-sanity:
-    specifier: ^9.7.0
+    specifier: ^9.10.6
     version: 9.10.6(@sanity/client@7.0.0)(@sanity/icons@3.7.0)(@sanity/types@3.87.1)(@sanity/ui@2.15.14)(next@15.3.1)(react-dom@18.3.1)(react-is@19.1.0)(react@18.3.1)(sanity@3.87.1)(styled-components@6.1.17)(typescript@5.6.3)
   postcss:
     specifier: ^8.4.47
