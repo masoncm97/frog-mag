@@ -20,9 +20,9 @@ export default function Issue1Page() {
         </div>
         <div>
           <p className="mb-4">
-            If you would like to receive a miniature (1"x1.4") copy of issue 1,
-            please fill out the form below and venmo @frogmag $5. Magnifying
-            glass recommended, but not included.
+            If you would like to receive a miniature (1&quot;x1.4&quot;) copy of
+            issue 1, please fill out the form below and venmo @frogmag $5.
+            Magnifying glass recommended, but not included.
           </p>
           {/* Add form component here when ready */}
         </div>
