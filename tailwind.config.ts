@@ -6,7 +6,9 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["var(--font-inter)"],
+        orbitron: ["Orbitron", "sans-serif"],
+        ptserif: ["PT Serif", "serif"],
+        modernoir: ["TT Modernoir", "sans-serif"],
       },
     },
   },

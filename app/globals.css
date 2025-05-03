@@ -1,3 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&family=PT+Serif:ital@0;1&display=swap");
+@font-face {
+  font-family: "TT Modernoir";
+  src: url("/fonts/tt-modernoir-demibold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Bodoni72SmallCaps";
+  src: url("/fonts/bodoni-72-smallcaps-book.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-orbitron;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-ptserif italic;
+  }
+  .modernoir {
+    font-family: "TT Modernoir", sans-serif;
+  }
+  .bodoni-smallcaps {
+    font-family: "Bodoni72SmallCaps", serif;
+  }
+}
