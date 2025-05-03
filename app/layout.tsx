@@ -16,18 +16,18 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="min-h-screen">
-        <Navigation />
-        <header className="text-center pt-16 md:pt-8">
+        <header className="text-center pt-10 md:pt-8 relative z-10">
           <Link
             href="/"
             className="inline-block hover:opacity-70 transition-opacity"
           >
-            <h1 className="text-2xl md:text-3xl lg:text-4xl font-normal bodoni-smallcaps">
+            <h1 className="text-3xl md:text-3xl lg:text-4xl font-normal bodoni-smallcaps">
               frog mag
             </h1>
           </Link>
         </header>
-        <div className="px-4 mt-12 md:mt-24 md:ml-32 lg:ml-48">{children}</div>
+        <Navigation />
+        {children}
         <footer className="fixed bottom-2 md:bottom-4 w-full text-center">
           <p className="modernoir text-[10px] md:text-xs">© frog mag 2025</p>
         </footer>

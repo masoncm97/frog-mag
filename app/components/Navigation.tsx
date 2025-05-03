@@ -9,13 +9,13 @@ const Navigation = () => {
   ];
 
   return (
-    <nav className="absolute top-4 left-4 md:left-8 md:top-8">
-      <ul className="flex flex-row space-x-4 md:flex-col md:space-x-0 md:space-y-3">
+    <nav className="md:fixed md:left-8 md:top-8 w-full flex justify-center md:w-auto md:block mt-8 md:mt-0 z-50">
+      <ul className="flex flex-row space-x-6 md:flex-col md:space-x-0 md:space-y-3">
         {navItems.map((item) => (
-          <li key={item.href}>
+          <li key={item.href} className="block">
             <Link
               href={item.href}
-              className="bodoni-smallcaps text-sm md:text-lg hover:text-gray-600 transition-colors"
+              className="bodoni-smallcaps text-base md:text-lg hover:text-gray-600 transition-colors block py-1"
             >
               {item.title}
             </Link>
