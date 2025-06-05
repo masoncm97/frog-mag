@@ -20,7 +20,7 @@ export default function Home() {
             className="opacity-80"
           />
         </div>
-        <div className="absolute top-0 left-0 z-10 translate-x-[35vw] sm:translate-x-[40vw] md:translate-x-[50vw] translate-y-32 sm:translate-y-48 md:translate-y-64 scale-50 sm:scale-75 md:scale-100">
+        {/* <div className="absolute top-0 left-0 z-10 translate-x-[35vw] sm:translate-x-[40vw] md:translate-x-[50vw] translate-y-32 sm:translate-y-48 md:translate-y-64 scale-50 sm:scale-75 md:scale-100">
           <Image
             src="/10.gif"
             alt="Animated Dove"
@@ -28,8 +28,17 @@ export default function Home() {
             height={150}
             className="opacity-80"
           />
+        </div> */}
+        <div className="absolute top-0 left-0 z-10 translate-x-4 sm:translate-x-8 md:-translate-x-2 translate-y-48 sm:translate-y-64 md:translate-y-96 scale-50 sm:scale-75 md:scale-100">
+          <Image
+            src="/10.gif"
+            alt="Animated Dove"
+            width={200}
+            height={200}
+            className="opacity-80"
+          />
         </div>
-        <div className="absolute top-0 left-0 z-10 translate-x-4 sm:translate-x-8 md:translate-x-16 translate-y-48 sm:translate-y-64 md:translate-y-96 scale-50 sm:scale-75 md:scale-100">
+        {/* <div className="absolute top-0 left-0 z-10 translate-x-4 sm:translate-x-8 md:translate-x-16 translate-y-48 sm:translate-y-64 md:translate-y-96 scale-50 sm:scale-75 md:scale-100">
           <Image
             src="/12.png"
             alt="Animated Dove"
@@ -37,7 +46,7 @@ export default function Home() {
             height={200}
             className="opacity-80"
           />
-        </div>
+        </div> */}
         <div className="absolute inset-0 flex flex-col items-baseline justify-center ml-4 sm:ml-8 md:ml-48 -translate-x-4 sm:-translate-x-8 md:-translate-x-64 -translate-y-48 sm:-translate-y-32 md:-translate-y-80">
           <h1 className="text-3xl sm:text-4xl md:text-7xl font-bold text-blue-500 font-sans transform">
             Welcome to
