@@ -12,6 +12,15 @@ export default function AboutPage() {
           priority
         />
       </div>
+      <div className="absolute top-0 left-0 z-10 translate-x-[10vw] sm:translate-x-[40vw] md:translate-x-[10vw] translate-y-[50vh] sm:translate-y-48 md:translate-y-[50vh] scale-50 sm:scale-75 md:scale-100">
+        <Image
+          src="/snip.gif"
+          alt="Animated Dove"
+          width={500}
+          height={150}
+          className="opacity-80"
+        />
+      </div>
 
       {/* Content */}
       <h1 className="max-sm:mt-20 text-2xl md:text-4xl mb-4 md:mb-6">About</h1>

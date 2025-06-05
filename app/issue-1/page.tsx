@@ -12,6 +12,15 @@ export default function Issue1Page() {
           priority
         />
       </div>
+      <div className="absolute top-0 left-0 z-10 translate-x-[50vw] sm:translate-x-[40vw] md:translate-x-[70vw] translate-y-32 sm:translate-y-48 md:translate-y-96 scale-50 sm:scale-75 md:scale-100">
+        <Image
+          src="/yes2.png"
+          alt="Animated Dove"
+          width={150}
+          height={150}
+          className="opacity-20"
+        />
+      </div>
       <h1 className="max-sm:mt-20 text-2xl md:text-4xl mb-4 md:mb-6 font-bold">
         Issue 1
       </h1>

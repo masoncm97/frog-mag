@@ -12,6 +12,15 @@ export default function SubmitPage() {
           priority
         />
       </div>
+      <div className="absolute top-0 left-0 z-10 translate-x-[50vw] sm:translate-x-[40vw] md:translate-x-[55vw] translate-y-[60vh] sm:translate-y-48 md:translate-y-[60vh] scale-50 sm:scale-75 md:scale-100">
+        <Image
+          src="/sewing3.gif"
+          alt="Animated Dove"
+          width={150}
+          height={150}
+          className="opacity-80"
+        />
+      </div>
       <h1 className="max-sm:mt-20 text-2xl md:text-4xl mb-4 md:mb-6 font-bold">
         Submit
       </h1>
