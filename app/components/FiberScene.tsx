@@ -5,7 +5,7 @@ import * as THREE from "three";
 
 // Configuration for the fibers
 const FIBER_CONFIG = {
-  numFibers: 10,
+  numFibers: 5,
   fiberLength: 100,
   pointsPerFiber: 800,
   spaceScale: 15,

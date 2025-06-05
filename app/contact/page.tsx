@@ -25,10 +25,10 @@ export default function ContactPage() {
             reach out through:
           </p>
           <p className="mb-2 text-sm md:text-base text-black font-medium">
-            Email: contact@frogmag.com
+            Email: frogmagworldwide@gmail.com
           </p>
           <p className="mb-8 text-sm md:text-base text-black font-medium">
-            Instagram: @frogmag
+            Instagram: @frogmagworldwide
           </p>
         </div>
       </div>
