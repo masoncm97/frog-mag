@@ -12,7 +12,9 @@ export default function SubmitPage() {
           priority
         />
       </div>
-      <h1 className="text-2xl md:text-4xl mb-4 md:mb-6 font-bold">Submit</h1>
+      <h1 className="max-sm:mt-20 text-2xl md:text-4xl mb-4 md:mb-6 font-bold">
+        Submit
+      </h1>
       <div className="max-w-2xl">
         <p className="mb-4 text-sm md:text-base font-medium">
           Frog Mag is always looking for new and exciting textile works to

@@ -12,7 +12,7 @@ export default function Header() {
   }
 
   return (
-    <header className="text-center pt-10 md:pt-8 relative z-10">
+    <header className="max-sm:mt-3 text-center pt-10 md:pt-8 relative z-10">
       <Link
         href="/"
         className="inline-block hover:opacity-70 transition-opacity"

@@ -15,7 +15,7 @@ export default function ContactPage() {
       </div>
 
       {/* Content */}
-      <div className="relative p-8 lg:ml-48 lg:mt-24">
+      <div className="max-sm:mt-20 relative p-8 lg:ml-48 lg:mt-24">
         <h1 className="text-2xl md:text-4xl mb-4 md:mb-6 text-black font-bold">
           Contact
         </h1>
