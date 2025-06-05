@@ -11,7 +11,7 @@ export default function Home() {
           width={500}
           height={500}
         />
-        <div className="absolute top-0 left-0 z-10 translate-x-[50vw]">
+        <div className="absolute top-0 left-0 z-10 translate-x-[30vw] md:translate-x-[50vw] scale-75 md:scale-100">
           <Image
             src="/5.gif"
             alt="Animated Dove"
@@ -20,16 +20,7 @@ export default function Home() {
             className="opacity-80"
           />
         </div>
-        {/* <div className="absolute top-0 left-0 z-10 translate-y-64 translate-x-[30vw]">
-          <Image
-            src="/5.gif"
-            alt="Animated Dove"
-            width={200}
-            height={200}
-            className="opacity-80"
-          />
-        </div> */}
-        <div className="absolute top-0 left-0 z-10 translate-x-[50vw] translate-y-64">
+        <div className="absolute top-0 left-0 z-10 translate-x-[40vw] md:translate-x-[50vw] translate-y-48 md:translate-y-64 scale-75 md:scale-100">
           <Image
             src="/10.gif"
             alt="Animated Dove"
@@ -38,7 +29,7 @@ export default function Home() {
             className="opacity-80"
           />
         </div>
-        <div className="absolute top-0 left-0 z-10 translate-x-16 translate-y-96">
+        <div className="absolute top-0 left-0 z-10 translate-x-8 md:translate-x-16 translate-y-64 md:translate-y-96 scale-75 md:scale-100">
           <Image
             src="/12.png"
             alt="Animated Dove"
@@ -47,11 +38,11 @@ export default function Home() {
             className="opacity-80"
           />
         </div>
-        <div className="absolute inset-0 flex flex-col items-baseline ml-48 justify-center -translate-x-64 -translate-y-80">
-          <h1 className="text-7xl font-bold text-blue-500 font-sans transform">
+        <div className="absolute inset-0 flex flex-col items-baseline justify-center ml-8 md:ml-48 -translate-x-8 md:-translate-x-64 -translate-y-32 md:-translate-y-80">
+          <h1 className="text-4xl md:text-7xl font-bold text-blue-500 font-sans transform">
             Welcome to
           </h1>
-          <h1 className="text-7xl font-bold text-blue-500 font-sans transform">
+          <h1 className="text-4xl md:text-7xl font-bold text-blue-500 font-sans transform">
             frog-mag.com
           </h1>
         </div>
