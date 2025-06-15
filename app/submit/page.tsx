@@ -40,7 +40,7 @@ export default function SubmitPage() {
           <li>Contact information</li>
         </ul>
         <p className="text-sm md:text-base font-medium">
-          Send your submissions to submissions@frogmag.com
+          Send your submissions to frogmagworldwide@gmail.com
         </p>
       </div>
     </main>
