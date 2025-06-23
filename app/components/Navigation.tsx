@@ -5,7 +5,8 @@ const Navigation = () => {
     { title: "About", href: "/about" },
     { title: "Contact", href: "/contact" },
     { title: "Submit", href: "/submit" },
-    { title: "Issue 1", href: "/issue-1" },
+    { title: "Volume 1", href: "/volume-1" },
+    { title: "Volume 2", href: "/volume-2" },
   ];
 
   return (

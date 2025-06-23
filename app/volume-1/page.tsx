@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function Issue1Page() {
+export default function Volume1Page() {
   return (
     <main className="min-h-screen p-8 lg:ml-48 lg:mt-24 relative">
       <div className="fixed inset-0 w-full h-full -z-10 opacity-20">
@@ -22,11 +22,11 @@ export default function Issue1Page() {
         />
       </div>
       <h1 className="max-sm:mt-20 text-2xl md:text-4xl mb-4 md:mb-6 font-bold">
-        Issue 1
+        Volume 1
       </h1>
       <div className="max-w-2xl">
         <p className="mb-4 text-sm md:text-base font-medium">
-          Issue 1 of Frog Mag was released in 2024. Only 100 copies were ever
+          Volume 1 of Frog Mag was released in 2024. Only 100 copies were ever
           made and they will never be reprinted.
         </p>
         <div className="mb-4 md:mb-6 font-medium">
@@ -45,10 +45,19 @@ export default function Issue1Page() {
         <div>
           <p className="mb-4 text-sm md:text-base">
             If you would like to receive a miniature (1&quot;x1.4&quot;) copy of
-            issue 1, please fill out the form below and venmo @frogmag $5.
+            volume 1, please fill out the form below and venmo @frogmag $5.
             Magnifying glass recommended, but not included.
           </p>
-          {/* Add form component here when ready */}
+          <p className="mb-4 text-sm md:text-base">
+            <a 
+              href="https://docs.google.com/forms/d/e/1FAIpQLSegYhvHugKtuB1GwY5Ke_JZnH1AK-gSR1nbLzHqU0uSBNV6jg/viewform"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 hover:text-blue-800 underline"
+            >
+              Order Frog Mag 1 here
+            </a>
+          </p>
         </div>
       </div>
     </main>
