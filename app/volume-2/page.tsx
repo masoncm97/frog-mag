@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Volume2Page() {
   return (
-    <main className="min-h-screen p-8 lg:ml-48 lg:mt-24 relative">
+    <main className="min-h-screen p-8 lg:ml-48 lg:mt-24 relative overflow-auto" style={{ height: '100vh' }}>
       <div className="fixed inset-0 w-full h-full -z-10 opacity-20">
         <Image
           src="/volume-2-cover.png"
@@ -50,7 +50,7 @@ export default function Volume2Page() {
         <div>
           <p className="mb-4 text-sm md:text-base">
             <a 
-              href="https://docs.google.com/forms/d/e/1FAIpQLScFygqyRQ17Iuum8YSFWtc8pJFVdebuFaruV3dLUKfAJXBzfw/viewform?usp=sharing&ouid=109623407731540164344"
+              href="https://docs.google.com/forms/d/1rF3oyihxADXk35GTfa_G47QgIii3N0HI7n2LsqAEtpo/viewform?edit_requested=true"
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-600 hover:text-blue-800 underline"
