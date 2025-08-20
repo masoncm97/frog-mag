@@ -33,7 +33,7 @@ export default function Volume2Page() {
             Featured Artists and Writers
           </h2>
           <p className="text-sm md:text-base font-medium">
-            Lauren Adams, Jane Ingram Allen, Amy, Lovisa Axen, Lucía Cozzi, Chiao, Emma Daley, Josh Dorman, Austin Ellwein, Macaella Gray, Catherine Heard, Clara Cecile Hirsch, Kieran Hodnett, Frances Hoggard, Liv Kelly, Kelly Kirkland, Elisabeth McLaughlin, Amorette Muzingo, Mazlyn Ortiz, Karli Owens, Riley Sanchez, Sierra Schweitzer, Michaela Shuster, Marko Stanišić, Lauren Vaccaro, Dizzy Zaba,
+            Lauren Adams, Jane Ingram Allen, Amy Chiao, Lovisa Axen, Lucía Cozzi, Emma Daley, Josh Dorman, Austin Ellwein, Macaella Gray, Catherine Heard, Clara Cecile Hirsch, Kieran Hodnett, Frances Hoggard, Liv Kelly, Kelly Kirkland, Elisabeth McLaughlin, Amorette Muzingo, Mazlyn Ortiz, Karli Owens, Riley Sanchez, Sierra Schweitzer, Michaela Shuster, Marko Stanišić, Lauren Vaccaro, Dizzy Zaba,
           </p>
         </div>
         <div className="mb-4 md:mb-6 font-medium">
