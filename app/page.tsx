@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="fixed inset-0 flex items-center justify-center bg-white p-4">
+    <main className="fixed inset-0 flex items-center justify-center bg-red-500 p-4">
       <div className="w-[90vw] h-[60vh] md:w-[80vw] md:h-[80vh] max-w-4xl relative mt-12 sm:mt-0">
         <Image
           className="w-full h-full object-contain"

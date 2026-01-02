@@ -18,7 +18,7 @@ export default function RootLayout({
       <body className="min-h-screen overflow-hidden">
         <Header />
         <Navigation />
-        <div className="fixed inset-0 overflow-hidden">{children}</div>
+        <div id="scrollable-container" className="fixed inset-0 overflow-auto">{children}</div>
         <footer className="fixed bottom-2 md:bottom-4 w-full text-center">
           <p className="modernoir text-[10px] md:text-xs">© frog mag 2025</p>
         </footer>
